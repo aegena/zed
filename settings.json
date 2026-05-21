@@ -7,36 +7,45 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "minimap": {
+    "show": "always"
+  },
+  "format_on_save": "off",
+  "icon_theme": "Material Icon Theme",
   "project_panel": {
-    "dock": "left",
+    "dock": "left"
   },
   "outline_panel": {
-    "dock": "left",
+    "dock": "left"
   },
   "collaboration_panel": {
     "dock": "left",
+    "button": false
   },
   "agent": {
     "dock": "right",
     "favorite_models": [],
-    "model_parameters": [],
+    "model_parameters": []
   },
   "git_panel": {
-    "dock": "left",
+    "dock": "left"
   },
+
   "ui_font_size": 16,
   "ui_font_family": ".SystemUIFont",
-  "buffer_font_size": 15,
-  "buffer_font_family": "NanumGothicCoding",
+  "buffer_font_size": 14,
+  "buffer_font_family": "SF Mono",
+  "buffer_font_weight": 200,
+  "buffer_line_height":"comfortable",
   "buffer_font_fallbacks": [
-    "SF Mono",
+    "NanumGothicCoding",
     "Sarasa Mono SC",
     "STFangsong",
-    "Songti TC",
+    "Songti TC"
   ],
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "One Dark",
-  },
+    "dark": "GitHub Dark Colorblind"
+  }
 }
